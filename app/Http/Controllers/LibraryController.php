@@ -61,7 +61,7 @@ class LibraryController extends Controller
             'name'      => 'required|min:4',
             'nim'       => 'required|min:8',
             'class'     => 'required',
-            'booktitle' => 'required|min:5',
+            'booktitle' => 'required|min:6',
             'author'    => 'required|min:5',
             'date'      => 'required|date',
             'teacher'   => 'required|min:3',
